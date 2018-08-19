@@ -6,7 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpackRun": "npx webpack",
     "webpackConfigRun": "npx webpack --config webpack.config.js",
-    "webpackConfigBabelRun": "npx webpack --config webpack.config.babel.js"
   },
   "keywords": [],
   "author": "Sarah Ksiyer",
