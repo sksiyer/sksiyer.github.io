@@ -1,0 +1,28 @@
+{
+  "name": "sksiyer.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpackRun": "npx webpack",
+    "webpackConfigRun": "npx webpack --config webpack.config.js",
+    "webpackConfigBabelRun": "npx webpack --config webpack.config.babel.js"
+  },
+  "keywords": [],
+  "author": "Sarah Ksiyer",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "bootstrap": "^4.0.0-alpha.6"
+  },
+  "babel":{
+    "presets": ["es2015"]
+},
+  "dependencies": {}
+}
