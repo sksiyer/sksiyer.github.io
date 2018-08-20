@@ -14,3 +14,5 @@
 sksiyer.github.io.iml
 
 src/src.iml
+
+node_modules/.bin
