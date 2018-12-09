@@ -15,12 +15,4 @@ sksiyer.github.io.iml
 
 src/src.iml
 
-node_modules/.bin
-
-node_modules/.cache
-
-!node_modules/bootstrap
-
-!node_modules/jquery
-
-!node_modules/css-loader
+node_modules
