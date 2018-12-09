@@ -13,6 +13,10 @@ module.exports = {
             favicon: 'src/img/favicon.ico'
         })
     ],
+    // build: {
+    //     test: /\.jpe?g$|\.ico$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/,
+    //     loader: 'file-loader?name=[name].[ext]'  // <-- retain original file name
+    // },
     module: {
         rules: [
             {
