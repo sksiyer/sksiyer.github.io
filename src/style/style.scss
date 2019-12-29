@@ -1,9 +1,88 @@
 @import "./colours";
-@import "./page";
 
-$pitch: #000000;
+* {
+  font-family: sans-serif;
+  color: $bright;
+}
 
-:export {
-  pitch : $pitch;
-  fushcia : $fuschia;
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, $fresh, $sky, $plum, $fuchsia);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p {
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: $concrete;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+h3 {
+  color: $concrete;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: $concrete;
+}
+
+img.profile {
+  display: block !important;
+  margin: auto;
+  border-radius: 50%;
+  width: 12vw;
+  display: inline;
+  box-shadow: grey 0 0 10px;
+}
+
+div.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.social-list {
+  list-style-type: none;
+  padding: 0 0 0 0;
+
+  li {
+    display: inline;
+    padding-right: 10px;
+  }
+}
+
+div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
 }
