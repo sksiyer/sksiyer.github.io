@@ -11,6 +11,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             favicon: 'src/img/favicon.ico'
+        }),
+        new HtmlWebpackPlugin({
+            favicon: 'src/img/oracle-certified-associate-java-se-8-programmer.png'
+        }),
+        new HtmlWebpackPlugin({
+            favicon: 'src/img/oracle-certified-professional-java-se-8-programmer.png'
         })
     ],
     // build: {
